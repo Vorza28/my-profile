@@ -93,11 +93,17 @@
         <header class="flex justify-between items-center text-xs tracking-widest text-gray-400 font-medium uppercase border-b border-brand-border/60 pb-4">
             <div class="flex items-center gap-2">
                 <span class="w-2 h-2 rounded-full bg-brand-red animate-pulse"></span>
-                <span>FULLSTACK DEVELOPER</span>
+                <span data-en="FULLSTACK DEVELOPER" data-id="FULLSTACK DEVELOPER">FULLSTACK DEVELOPER</span>
             </div>
-            <div class="flex items-center gap-2 hover:text-white transition cursor-pointer">
-                <span>AVAILABLE FOR FREELANCE</span>
-                <span class="text-brand-red font-bold text-sm">+</span>
+            <div class="flex items-center gap-4">
+                <div class="hidden sm:flex items-center gap-2 hover:text-white transition cursor-pointer">
+                    <span data-en="AVAILABLE FOR FREELANCE" data-id="TERSEDIA UNTUK FREELANCE">AVAILABLE FOR FREELANCE</span>
+                    <span class="text-brand-red font-bold text-sm">+</span>
+                </div>
+                <div id="language-group" class="flex items-center gap-1 rounded-full border border-brand-border p-1" role="group" aria-label="Select language">
+                    <button id="language-id" type="button" class="rounded-full px-2.5 py-1 text-[10px] font-bold transition hover:text-white" aria-label="Ganti ke Bahasa Indonesia">ID</button>
+                    <button id="language-en" type="button" class="rounded-full px-2.5 py-1 text-[10px] font-bold transition hover:text-white" aria-label="Switch to English">EN</button>
+                </div>
             </div>
         </header>
 
@@ -117,17 +123,17 @@
                 <!-- Left Column: Name & Intro -->
                 <div class="lg:col-span-4 space-y-6 lg:pb-6">
                     <div>
-                        <span class="font-hand text-3xl text-gray-300 block -mb-2 transform -rotate-3">Hello, I'm</span>
+                        <span class="font-hand text-3xl text-gray-300 block -mb-2 transform -rotate-3" data-en="Hello, I'm" data-id="Halo, saya">Hello, I'm</span>
                         <h2 class="text-5xl sm:text-6xl xl:text-7xl font-display uppercase tracking-tight text-white leading-none font-extrabold">
                             ARYASUTA<br/>DANISWARA
                         </h2>
                     </div>
 
                     <div class="space-y-3">
-                        <p class="text-xs sm:text-sm font-bold tracking-widest text-brand-red uppercase">
+                        <p class="text-xs sm:text-sm font-bold tracking-widest text-brand-red uppercase" data-en="FULLSTACK DEVELOPER & DIGITAL CREATOR" data-id="FULLSTACK DEVELOPER & KREATOR DIGITAL">
                             FULLSTACK DEVELOPER & DIGITAL CREATOR
                         </p>
-                        <p class="text-xs sm:text-sm text-gray-400 leading-relaxed max-w-sm">
+                        <p class="text-xs sm:text-sm text-gray-400 leading-relaxed max-w-sm" data-en="I design and build stylish, user-focused web experiences that combine creativity with strategy. Passionate about clean design, smooth interactions, and details that make a difference." data-id="Saya merancang dan membangun pengalaman web yang menarik dan berfokus pada pengguna, memadukan kreativitas dengan strategi. Saya menyukai desain yang rapi, interaksi yang mulus, dan detail yang membawa perubahan.">
                             I design and build stylish, user-focused web experiences that combine creativity with strategy. Passionate about clean design, smooth interactions, and details that make a difference.
                         </p>
                     </div>
@@ -136,7 +142,7 @@
                     <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-card border border-brand-border text-xs text-gray-300 font-medium">
                         <span class="w-2 h-2 rounded-full bg-brand-red animate-ping"></span>
                         <span class="w-2 h-2 rounded-full bg-brand-red -ml-4"></span>
-                        <span class="uppercase tracking-wider text-[11px]">AVAILABLE WORLDWIDE</span>
+                        <span class="uppercase tracking-wider text-[11px]" data-en="AVAILABLE WORLDWIDE" data-id="TERSEDIA DI SELURUH DUNIA">AVAILABLE WORLDWIDE</span>
                     </div>
                 </div>
 
@@ -156,7 +162,7 @@
                     <!-- Floating Sub-badge on Image -->
                     <div class="absolute bottom-8 right-2 sm:right-6 lg:-right-4 bg-black/80 backdrop-blur-md border border-brand-border p-3 sm:p-4 rounded-xl max-w-[200px] hidden sm:flex items-center gap-3 shadow-xl">
                         <div class="text-brand-red font-bold text-lg">✦</div>
-                        <p class="text-[11px] leading-tight text-gray-300">
+                        <p class="text-[11px] leading-tight text-gray-300" data-en="Turning ideas into powerful digital experiences." data-id="Mengubah ide menjadi pengalaman digital yang berdampak.">
                             Turning ideas into powerful digital experiences.
                         </p>
                     </div>
@@ -166,17 +172,17 @@
                 <div class="lg:col-span-3 lg:pb-8 flex flex-row lg:flex-col justify-between lg:justify-end gap-6 border-t lg:border-t-0 lg:border-l border-brand-border/60 pt-6 lg:pt-0 lg:pl-8">
                     <div class="space-y-1">
                         <div class="text-4xl sm:text-5xl font-display font-bold text-brand-red">3+</div>
-                        <div class="text-[10px] sm:text-xs tracking-wider uppercase text-gray-400">YEARS<br/>EXPERIENCE</div>
+                        <div class="text-[10px] sm:text-xs tracking-wider uppercase text-gray-400" data-en-html="YEARS<br/>EXPERIENCE" data-id-html="TAHUN<br/>PENGALAMAN">YEARS<br/>EXPERIENCE</div>
                     </div>
 
                     <div class="space-y-1">
                         <div class="text-4xl sm:text-5xl font-display font-bold text-brand-red">10+</div>
-                        <div class="text-[10px] sm:text-xs tracking-wider uppercase text-gray-400">PROJECTS<br/>COMPLETED</div>
+                        <div class="text-[10px] sm:text-xs tracking-wider uppercase text-gray-400" data-en-html="PROJECTS<br/>COMPLETED" data-id-html="PROYEK<br/>SELESAI">PROJECTS<br/>COMPLETED</div>
                     </div>
 
                     <div class="space-y-1">
                         <div class="text-4xl sm:text-5xl font-display font-bold text-brand-red">5+</div>
-                        <div class="text-[10px] sm:text-xs tracking-wider uppercase text-gray-400">HAPPY<br/>CLIENTS</div>
+                        <div class="text-[10px] sm:text-xs tracking-wider uppercase text-gray-400" data-en-html="HAPPY<br/>CLIENTS" data-id-html="KLIEN<br/>PUAS">HAPPY<br/>CLIENTS</div>
                     </div>
                 </div>
 
@@ -189,10 +195,10 @@
             <div class="flex justify-between items-center border-b border-brand-border pb-3">
                 <h3 class="text-sm font-bold tracking-widest text-white uppercase flex items-center gap-2">
                     <span class="w-1.5 h-1.5 bg-brand-red"></span>
-                    SELECTED PROJECTS
+                    <span data-en="SELECTED PROJECTS" data-id="PROYEK PILIHAN">SELECTED PROJECTS</span>
                 </h3>
                 <a href="#projects" class="text-xs text-gray-400 hover:text-white tracking-widest uppercase flex items-center gap-1 transition">
-                    VIEW ALL PROJECTS <span class="text-brand-red">→</span>
+                    <span data-en="VIEW ALL PROJECTS" data-id="LIHAT SEMUA PROYEK">VIEW ALL PROJECTS</span> <span class="text-brand-red">→</span>
                 </a>
             </div>
 
@@ -217,7 +223,7 @@
                         <span class="text-brand-red font-display font-bold text-2xl">01</span>
                         <div class="flex-1 min-w-0">
                             <h4 class="text-sm font-bold text-white tracking-wide uppercase truncate group-hover:text-brand-red transition">DIGITALIZATION VILLAGE</h4>
-                            <p class="text-[11px] text-gray-400 uppercase tracking-wider">PLAINT WEBSITE</p>
+                            <p class="text-[11px] text-gray-400 uppercase tracking-wider" data-en="PLAINT WEBSITE" data-id="SITUS WEB PLAINT">PLAINT WEBSITE</p>
                         </div>
                         <span class="text-gray-500 group-hover:translate-x-1 group-hover:text-white transition">→</span>
                     </div>
@@ -241,7 +247,7 @@
                         <span class="text-brand-red font-display font-bold text-2xl">02</span>
                         <div class="flex-1 min-w-0">
                             <h4 class="text-sm font-bold text-white tracking-wide uppercase truncate group-hover:text-brand-red transition">URBANDA</h4>
-                            <p class="text-[11px] text-gray-400 uppercase tracking-wider">E-COMMERCE WEBSITE</p>
+                            <p class="text-[11px] text-gray-400 uppercase tracking-wider" data-en="E-COMMERCE WEBSITE" data-id="SITUS WEB E-COMMERCE">E-COMMERCE WEBSITE</p>
                         </div>
                         <span class="text-gray-500 group-hover:translate-x-1 group-hover:text-white transition">→</span>
                     </div>
@@ -265,7 +271,7 @@
                         <span class="text-brand-red font-display font-bold text-2xl">03</span>
                         <div class="flex-1 min-w-0">
                             <h4 class="text-sm font-bold text-white tracking-wide uppercase truncate group-hover:text-brand-red transition">V-INVENTORY</h4>
-                            <p class="text-[11px] text-gray-400 uppercase tracking-wider">INVENTORY WEBSITE</p>
+                            <p class="text-[11px] text-gray-400 uppercase tracking-wider" data-en="INVENTORY WEBSITE" data-id="SITUS WEB INVENTARIS">INVENTORY WEBSITE</p>
                         </div>
                         <span class="text-gray-500 group-hover:translate-x-1 group-hover:text-white transition">→</span>
                     </div>
@@ -280,25 +286,25 @@
             <!-- Column 1: Education & Skills (4 cols) -->
             <div class="lg:col-span-4 space-y-8 pr-0 lg:pr-4">
                 <div class="border-b border-brand-border pb-3">
-                    <h3 class="text-sm font-bold tracking-widest text-white uppercase">EDUCATION & SKILLS</h3>
+                    <h3 class="text-sm font-bold tracking-widest text-white uppercase" data-en="EDUCATION & SKILLS" data-id="PENDIDIKAN & KEAHLIAN">EDUCATION & SKILLS</h3>
                 </div>
 
                 <!-- Education Block -->
                 <div class="space-y-6">
-                    <h4 class="text-xs font-bold tracking-widest text-brand-red uppercase">EDUCATION</h4>
+                    <h4 class="text-xs font-bold tracking-widest text-brand-red uppercase" data-en="EDUCATION" data-id="PENDIDIKAN">EDUCATION</h4>
                     
                     <div class="space-y-4">
                         <div class="flex justify-between items-start text-xs">
                             <div>
-                                <h5 class="font-semibold text-white text-sm">Technology Information Student</h5>
+                                <h5 class="font-semibold text-white text-sm" data-en="Technology Information Student" data-id="Mahasiswa Teknologi Informasi">Technology Information Student</h5>
                                 <p class="text-gray-400 mt-0.5">Politeknik Negeri Madiun</p>
                             </div>
-                            <span class="text-brand-red font-medium">2024 – Now</span>
+                            <span class="text-brand-red font-medium" data-en="2024 – Now" data-id="2024 – Sekarang">2024 – Now</span>
                         </div>
 
                         <div class="flex justify-between items-start text-xs border-t border-brand-border/40 pt-4">
                             <div>
-                                <h5 class="font-semibold text-white text-sm">Fullstack Developer Certification</h5>
+                                <h5 class="font-semibold text-white text-sm" data-en="Fullstack Developer Certification" data-id="Sertifikasi Fullstack Developer">Fullstack Developer Certification</h5>
                                 <p class="text-gray-400 mt-0.5">Razen Technology</p>
                             </div>
                             <span class="text-brand-red font-medium">2026</span>
@@ -308,7 +314,7 @@
 
                 <!-- Skills Tags Block -->
                 <div class="space-y-4 pt-2">
-                    <h4 class="text-xs font-bold tracking-widest text-brand-red uppercase">SKILLS</h4>
+                    <h4 class="text-xs font-bold tracking-widest text-brand-red uppercase" data-en="SKILLS" data-id="KEAHLIAN">SKILLS</h4>
                     <div class="flex flex-wrap gap-2">
                         <span class="px-3 py-1.5 rounded bg-brand-card border border-brand-border text-[11px] font-medium text-gray-300 hover:border-brand-red hover:text-white transition">WEB DESIGN</span>
                         <span class="px-3 py-1.5 rounded bg-brand-card border border-brand-border text-[11px] font-medium text-gray-300 hover:border-brand-red hover:text-white transition">UI/UX DESIGN</span>
@@ -328,7 +334,7 @@
             <!-- Column 2: Work Process (5 cols) -->
             <div class="lg:col-span-5 space-y-6">
                 <div class="border-b border-brand-border pb-3">
-                    <h3 class="text-sm font-bold tracking-widest text-white uppercase">WORK PROCESS</h3>
+                    <h3 class="text-sm font-bold tracking-widest text-white uppercase" data-en="WORK PROCESS" data-id="PROSES KERJA">WORK PROCESS</h3>
                 </div>
 
                 <!-- Process Steps Timeline -->
@@ -344,8 +350,8 @@
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                         </div>
                         <div class="flex-1 pt-0.5">
-                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase">DISCOVER</h4>
-                            <p class="text-xs text-gray-400 mt-0.5">Understanding goals, audience, and project requirements.</p>
+                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase" data-en="DISCOVER" data-id="TEMUKAN">DISCOVER</h4>
+                            <p class="text-xs text-gray-400 mt-0.5" data-en="Understanding goals, audience, and project requirements." data-id="Memahami tujuan, audiens, dan kebutuhan proyek.">Understanding goals, audience, and project requirements.</p>
                         </div>
                     </div>
 
@@ -356,8 +362,8 @@
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
                         </div>
                         <div class="flex-1 pt-0.5">
-                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase">IDEATE</h4>
-                            <p class="text-xs text-gray-400 mt-0.5">Planning, wireframing, and creating the right concept.</p>
+                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase" data-en="IDEATE" data-id="GAGASAN">IDEATE</h4>
+                            <p class="text-xs text-gray-400 mt-0.5" data-en="Planning, wireframing, and creating the right concept." data-id="Menyusun rencana, wireframe, dan konsep yang tepat.">Planning, wireframing, and creating the right concept.</p>
                         </div>
                     </div>
 
@@ -368,8 +374,8 @@
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg>
                         </div>
                         <div class="flex-1 pt-0.5">
-                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase">DESIGN</h4>
-                            <p class="text-xs text-gray-400 mt-0.5">Crafting visual design with a focus on user experience.</p>
+                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase" data-en="DESIGN" data-id="DESAIN">DESIGN</h4>
+                            <p class="text-xs text-gray-400 mt-0.5" data-en="Crafting visual design with a focus on user experience." data-id="Membuat desain visual yang berfokus pada pengalaman pengguna.">Crafting visual design with a focus on user experience.</p>
                         </div>
                     </div>
 
@@ -380,8 +386,8 @@
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
                         </div>
                         <div class="flex-1 pt-0.5">
-                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase">DEVELOP</h4>
-                            <p class="text-xs text-gray-400 mt-0.5">Building fast, responsive, and high-performing websites.</p>
+                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase" data-en="DEVELOP" data-id="KEMBANGKAN">DEVELOP</h4>
+                            <p class="text-xs text-gray-400 mt-0.5" data-en="Building fast, responsive, and high-performing websites." data-id="Membangun situs web yang cepat, responsif, dan berkinerja tinggi.">Building fast, responsive, and high-performing websites.</p>
                         </div>
                     </div>
 
@@ -392,8 +398,8 @@
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
                         </div>
                         <div class="flex-1 pt-0.5">
-                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase">DELIVER</h4>
-                            <p class="text-xs text-gray-400 mt-0.5">Testing, optimizing, and launching with perfection.</p>
+                            <h4 class="text-xs font-bold text-brand-red tracking-wider uppercase" data-en="DELIVER" data-id="SERAHKAN">DELIVER</h4>
+                            <p class="text-xs text-gray-400 mt-0.5" data-en="Testing, optimizing, and launching with perfection." data-id="Menguji, mengoptimalkan, dan meluncurkan hasil terbaik.">Testing, optimizing, and launching with perfection.</p>
                         </div>
                     </div>
 
@@ -412,7 +418,7 @@
 
                 <!-- Main Quote Content -->
                 <div class="space-y-6 my-auto relative z-10">
-                    <p class="text-lg sm:text-xl font-medium leading-relaxed italic text-white/95">
+                    <p class="text-lg sm:text-xl font-medium leading-relaxed italic text-white/95" data-en="Good code not just if it's work, but if it's clean, maintainable, and scalable. I strive to write code that is not only functional but also elegant and efficient." data-id="Kode yang baik bukan hanya berfungsi, tetapi juga bersih, mudah dirawat, dan mudah dikembangkan. Saya berusaha menulis kode yang fungsional, elegan, dan efisien.">
                         Good code not just if it's work, but if it's clean, maintainable, and scalable. I strive to write code that is not only functional but also elegant and efficient.
                     </p>
                     <div class="font-hand text-3xl text-white/90">
@@ -422,7 +428,7 @@
 
                 <!-- Quote Footer -->
                 <div class="pt-6 border-t border-white/20 text-[10px] font-bold tracking-widest uppercase flex items-center justify-between text-white/80">
-                    <span>LET'S CREATE SOMETHING GREAT TOGETHER</span>
+                    <span data-en="LET'S CREATE SOMETHING GREAT TOGETHER" data-id="MARI CIPTAKAN SESUATU YANG HEBAT BERSAMA">LET'S CREATE SOMETHING GREAT TOGETHER</span>
                     <span>+</span>
                 </div>
             </div>
@@ -434,11 +440,11 @@
             <div class="absolute -right-16 -top-20 h-56 w-56 rounded-full bg-brand-red/10 blur-3xl pointer-events-none"></div>
             <div class="relative flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                 <div class="space-y-3 max-w-2xl">
-                    <p class="text-[11px] font-bold tracking-[0.2em] text-brand-red uppercase">LET'S TALK</p>
-                    <h2 class="text-3xl sm:text-4xl font-display font-bold uppercase tracking-tight text-white">
+                    <p class="text-[11px] font-bold tracking-[0.2em] text-brand-red uppercase" data-en="LET'S TALK" data-id="MARI BICARA">LET'S TALK</p>
+                    <h2 class="text-3xl sm:text-4xl font-display font-bold uppercase tracking-tight text-white" data-en="Have a project in mind?" data-id="Punya proyek yang ingin dikerjakan?">
                         Have a project in mind?
                     </h2>
-                    <p class="text-sm text-gray-400 leading-relaxed">
+                    <p class="text-sm text-gray-400 leading-relaxed" data-en="Contact me directly via WhatsApp to discuss your project, collaboration, or ideas." data-id="Hubungi saya langsung melalui WhatsApp untuk membahas proyek, kolaborasi, atau ide Anda.">
                         Contact me directly via WhatsApp to discuss your project, collaboration, or ideas.
                     </p>
                 </div>
@@ -447,12 +453,13 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="inline-flex items-center justify-center gap-3 rounded-full bg-[#25D366] px-6 py-3.5 text-sm font-bold text-black transition hover:bg-[#20bd5a] focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2 focus:ring-offset-brand-card"
+                    id="whatsapp-contact"
                     aria-label="Contact Aryasuta via WhatsApp"
                 >
                     <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                         <path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.48 0 .13 5.34.13 11.92c0 2.1.55 4.15 1.59 5.96L.03 24l6.27-1.64a11.9 11.9 0 0 0 5.76 1.47h.01c6.57 0 11.92-5.35 11.92-11.92a11.85 11.85 0 0 0-3.47-8.43ZM12.07 21.8h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.72.98.99-3.63-.23-.37a9.88 9.88 0 0 1-1.52-5.27c0-5.45 4.44-9.89 9.9-9.89a9.83 9.83 0 0 1 7 2.9 9.83 9.83 0 0 1 2.9 7c0 5.45-4.45 9.87-9.91 9.87Zm5.43-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.47-1.76-1.64-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.48-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.48.71.31 1.27.49 1.7.63.72.23 1.37.2 1.89.12.58-.09 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
                     </svg>
-                    CHAT VIA WHATSAPP
+                    <span data-en="CHAT VIA WHATSAPP" data-id="HUBUNGI VIA WHATSAPP">CHAT VIA WHATSAPP</span>
                     <span aria-hidden="true">→</span>
                 </a>
             </div>
@@ -465,17 +472,17 @@
                 <!-- Left Details Header -->
                 <div class="lg:col-span-5 space-y-6">
                     <h2 class="text-4xl sm:text-5xl font-display font-bold uppercase tracking-tight text-white flex items-center gap-2">
-                        LET’S WORK<br/>TOGETHER
+                        <span data-en-html="LET’S WORK<br/>TOGETHER" data-id-html="MARI BEKERJA<br/>BERSAMA">LET’S WORK<br/>TOGETHER</span>
                         <span class="text-brand-red font-light">+</span>
                     </h2>
                     
-                    <p class="text-xs sm:text-sm text-gray-400 max-w-md leading-relaxed">
+                    <p class="text-xs sm:text-sm text-gray-400 max-w-md leading-relaxed" data-en="I'm currently open for new projects and collaborations. Let's create something amazing that drives results." data-id="Saya terbuka untuk proyek dan kolaborasi baru. Mari ciptakan sesuatu yang luar biasa dan memberikan hasil.">
                         I'm currently open for new projects and collaborations. Let's create something amazing that drives results.
                     </p>
 
                     <button onclick="copyToClipboard('aryas2754@gmail.com', 'Email copied!')" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-brand-card border border-brand-border text-xs text-white font-medium hover:border-brand-red hover:bg-brand-red/10 transition group">
                         <span class="w-2 h-2 rounded-full bg-brand-red"></span>
-                        <span class="tracking-widest uppercase text-[11px] group-hover:text-brand-red transition">AVAILABLE FOR FREELANCE</span>
+                        <span class="tracking-widest uppercase text-[11px] group-hover:text-brand-red transition" data-en="AVAILABLE FOR FREELANCE" data-id="TERSEDIA UNTUK FREELANCE">AVAILABLE FOR FREELANCE</span>
                     </button>
                 </div>
 
@@ -511,7 +518,7 @@
                         <div class="w-8 h-8 rounded-full bg-brand-card border border-brand-border flex items-center justify-center text-brand-red">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
                         </div>
-                        <span>Ngawi, Indonesia</span>
+                        <span data-en="Ngawi, Indonesia" data-id="Ngawi, Indonesia">Ngawi, Indonesia</span>
                     </div>
 
                 </div>
@@ -529,7 +536,7 @@
                         
                         <!-- Floating Mini Screen Overlay Text -->
                         <div class="absolute bottom-4 left-4 right-4 bg-black/70 backdrop-blur-md p-3 rounded-lg border border-white/10 flex items-center justify-between">
-                            <span class="text-[11px] font-bold uppercase tracking-wider text-white">WE DESIGN DIGITAL EXPERIENCES</span>
+                            <span class="text-[11px] font-bold uppercase tracking-wider text-white" data-en="WE DESIGN DIGITAL EXPERIENCES" data-id="KAMI MERANCANG PENGALAMAN DIGITAL">WE DESIGN DIGITAL EXPERIENCES</span>
                             <span class="w-2 h-2 rounded-full bg-brand-red"></span>
                         </div>
                     </div>
@@ -540,7 +547,7 @@
 
         <!-- ================= FOOTER ================= -->
         <footer class="py-6 border-t border-brand-border/40 text-center text-[11px] text-gray-500 uppercase tracking-widest flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div>© <span id="year"></span> ARYASUTA DANISWARA. ALL RIGHTS RESERVED.</div>
+            <div>© <span id="year"></span> <span data-en="ARYASUTA DANISWARA. ALL RIGHTS RESERVED." data-id="ARYASUTA DANISWARA. HAK CIPTA DILINDUNGI.">ARYASUTA DANISWARA. ALL RIGHTS RESERVED.</span></div>
             <div class="flex items-center gap-6">
                 <a href="https://www.linkedin.com/in/aryasuta-daniswara-baa45621a/" class="hover:text-brand-red transition">LINKEDIN</a>
                 <a href="https://www.instagram.com/_arsutd/" class="hover:text-brand-red transition">INSTAGRAM</a>
@@ -553,6 +560,37 @@
     <script>
         // Set dynamic year in footer
         document.getElementById('year').textContent = new Date().getFullYear();
+
+        const languageButtons = {
+            id: document.getElementById('language-id'),
+            en: document.getElementById('language-en')
+        };
+
+        function setLanguage(language) {
+            const isIndonesian = language === 'id';
+            document.documentElement.lang = language;
+            document.getElementById('language-group').setAttribute('aria-label', isIndonesian ? 'Pilih bahasa' : 'Select language');
+            document.getElementById('whatsapp-contact').setAttribute('aria-label', isIndonesian ? 'Hubungi Aryasuta melalui WhatsApp' : 'Contact Aryasuta via WhatsApp');
+
+            document.querySelectorAll('[data-en][data-id]').forEach((element) => {
+                element.textContent = isIndonesian ? element.dataset.id : element.dataset.en;
+            });
+            document.querySelectorAll('[data-en-html][data-id-html]').forEach((element) => {
+                element.innerHTML = isIndonesian ? element.dataset.idHtml : element.dataset.enHtml;
+            });
+
+            Object.keys(languageButtons).forEach((code) => {
+                const isActive = code === language;
+                languageButtons[code].classList.toggle('bg-brand-red', isActive);
+                languageButtons[code].classList.toggle('text-white', isActive);
+                languageButtons[code].classList.toggle('text-gray-400', !isActive);
+                languageButtons[code].setAttribute('aria-pressed', String(isActive));
+            });
+        }
+
+        languageButtons.id.addEventListener('click', () => setLanguage('id'));
+        languageButtons.en.addEventListener('click', () => setLanguage('en'));
+        setLanguage('en');
 
         // Clipboard Helper for interactive contact items
         function copyToClipboard(text, message) {
@@ -575,8 +613,14 @@
         function showToast(msg) {
             const toast = document.getElementById('toast');
             const toastMessage = document.getElementById('toast-message');
+            const translations = {
+                'Copied to clipboard!': 'Berhasil disalin!',
+                'Email copied!': 'Email berhasil disalin!',
+                'Email address copied!': 'Alamat email berhasil disalin!',
+                'Phone number copied!': 'Nomor telepon berhasil disalin!'
+            };
             
-            toastMessage.textContent = msg;
+            toastMessage.textContent = document.documentElement.lang === 'id' ? (translations[msg] || msg) : msg;
             toast.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
             toast.classList.add('opacity-100', 'translate-y-0');
 
